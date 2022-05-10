@@ -1,20 +1,23 @@
-# CEP GraphQL
+João Vitor Rodrigues Carrijo, RA: 591009
 
-Disponível em: https://cep-graphql.herokuapp.com
-
-Backend em GraphQL para consumir a API de CEP da ViaCEP (https://viacep.com.br/).
-
-  - Apollo Server
-
-### Executar
-
-A aplicação requer o [Node.js](https://nodejs.org/) e o [Yarn](https://yarnpkg.com/lang/en/) instalado na máquina.
-Após clonar o projeto, basta executar os seguintes comandos abaixo para executar a aplicação:
+A aplicação requer o [Node.js](https://nodejs.org/).
 
 ```sh
-$ cd cep-graphql
-$ yarn
-$ yarn start
+$ npm install
+$ npm run start
 ```
 
-**Fim :)**
+Exemplo de consulta de cep: 
+
+query {
+  cep (cep: "17510460") {
+    cep
+    logradouro
+    complemento
+    bairro
+    localidade
+    uf
+    ibge
+    gia
+  }
+}
