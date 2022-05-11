@@ -1,6 +1,6 @@
-João Vitor Rodrigues Carrijo, RA: 591009
+João Vitor Rodrigues Carrijo, RA: 591009.
 
-Henrique Rodrigues, RA: 
+Henrique Rodrigues, RA: 589756.
 
 A aplicação requer o [Node.js](https://nodejs.org/).
 
